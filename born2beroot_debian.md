@@ -471,7 +471,7 @@ $ sudo crontab -u root -e
 ```sh
 # строка 23
 # m h dom mon dow command
-*/10 * * * * * sh /usr/local/bin/monitoring.sh | wall
+*/10 * * * * sh /usr/local/bin/monitoring.sh | wall
 ```
 
 Проверьте запланированные задания cron для root
